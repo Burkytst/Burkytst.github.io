@@ -158,3 +158,9 @@ input[type=submit]:hover {
   background-color: #f2f2f200;
   padding: 20px;
 }
+.about-me-container h1{
+  color: orange
+}
+.about-me-container p{
+  color: aquamarine;
+}
