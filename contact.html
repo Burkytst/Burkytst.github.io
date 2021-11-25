@@ -5,12 +5,14 @@
   <meta charset="utf-8">
   <meta name="author" content="Burak Tastan">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <header>
-   <div class="logo">
-     BurakTastan
-   </div>
+  <div class="logo">
+  
+    <a href="index.html"> BT.</a>
+  </div>
    
    <nav>
        <ul>
@@ -22,8 +24,34 @@
    </nav>
    
    </header>
+   <title>Contact me</title>
+   <div class="container">
+    <form action="action_page.php">
+  
+      <label for="fname">First Name</label>
+      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+  
+      <label for="lname">Last Name</label>
+      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
 
-
+      <label for="email">Email</label>
+      <input type="text" id="email" name="Email" placeholder="Your email address..">
+  
+      <label for="country">Country</label>
+      <select id="country" name="country">
+        <option value="australia">Sweden</option>
+        <option value="canada">Norway</option>
+        <option value="usa">Denmark</option>
+        <option value="usa">Finland</option>  
+      </select>
+  
+      <label for="subject">Subject</label>
+      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+  
+      <input type="submit" value="Submit">
+  
+    </form>
+  </div>
 
 
 
@@ -33,12 +61,30 @@
    <footer>
       <div class="wrapper">
       <div class=footer-content>
+      
          <h2>Get in touch</h2>
-         <p>Feel free to contact me if you have an exciting project to work with, interested in hiring me or just want to talk. </p>
+         <p class="footer-text">Feel free to contact me if you have an exciting project to work with, interested in hiring me or just want to talk. </p>
       </div>
-    </div> 
-      </footer>
     
+    </div> 
+    
+    <div class="footer-icons"> 
+    
+      <a href="linkedin.com/in/buraktastan" target="_blank">
+        <i class="fa fa-linkedin w3-hover-opacity"></i>
+      </a>
+    
+    <a href="mailto:burak.ditastan@gmail.com" target="_blank">
+      <i class="fa fa-paper-plane"></i>
+    </a>
+    
+    </div>
+    
+    <div class="footer-terms">
+     © 2021 — Burak Tastan
+    
+    </div>
+      </footer>
     </body>
     
     </html>
