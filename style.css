@@ -13,6 +13,13 @@ font-family: monospace;
 font-size: 16px;
 background-color: black;
  }
+
+ .myVideo {
+   width: 100%;
+   height: auto;
+   position: fixed ;
+   z-index: -99999999;
+ }
 ul {
     list-style-type: none;
     float: right;
@@ -26,7 +33,7 @@ ul {
 
   }
   header{    
-  background-color: black;
+  
   height: 10vh;
   display: flex;
   align-items: center;
